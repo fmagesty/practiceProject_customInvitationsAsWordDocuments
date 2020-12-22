@@ -5,7 +5,7 @@ import docx
 guestList = [] # list of guests on guests.txt file.
 
 # Read .txt file and extract the guest names:
-guests = open(r'C:\Users\Felipe\Desktop\AUTOMATE\CHAPTER_15\guests.txt') # This is the path to where the file guests.txt should be.
+guests = open('<insert path here>') # This is the path to where the file guests.txt should be.
 for line in guests:
     guestList.append(line) # each line is stored in the list guestList.
 guests.close()
